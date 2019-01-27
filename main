@@ -1,0 +1,25 @@
+package zero;
+
+import java.util.Scanner;
+
+public class liczba {
+
+	public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
+        System.out.println("Podaj liczbe: ");
+        int a = in.nextInt();
+        int suma = 0;
+
+
+        while (a != 0)
+        {
+            suma += a;
+            a = in.nextInt();
+        }
+        if (a==0)
+        {
+            System.out.println(suma);
+        }
+
+    }}
